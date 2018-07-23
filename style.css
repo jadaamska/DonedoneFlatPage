@@ -10,14 +10,21 @@ body {
 ul {
     list-style-type: none;
     display: flex;
-    margin: 0;
+    margin: 1vw;
+}
+header ul img {
+    height: 3vw;
+    width: 3vw;
 }
 header {
     width: 100%;
     position: absolute;
     z-index: 1;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+.header-left-menu {
+    margin-right: auto;
 }
 .big_triangle {
     width: 0;
@@ -156,6 +163,6 @@ header {
     left: 47vw;
 }
 .second_page {
-    background-color: #a23b5a;
+    background-color: #f26f21;
     height: 50vw;
 }
