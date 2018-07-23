@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: #a23b2a;
+    overflow-x: hidden;
+}
+.first_page {
+    background-color: #a23b2a;
+    height: 110vw;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.big_triangle {
+    width: 0;
+    height: 0;
+    border-left: 35vw solid transparent;
+    border-right: 35vw solid transparent;
+    border-top: 35vw solid #952715;
+    position:absolute;
+    left: 14.6vw;
+}
+.img_one {
+    background: url(donedone/donedone/res-img/page-home-balloon-left.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 9.7vw;
+    top: 5.2vw;
+}
+.img_two {
+    background: url(donedone/donedone/res-img/page-home-documents.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 9.7vw;
+    top: 15.2vw;
+}
+.img_three {
+    background: url(donedone/donedone/res-img/page-home-folder.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 29.7vw;
+    top: 25.2vw;
+}
+.img_four {
+    background: url(donedone/donedone/res-img/page-home-balloon-middle.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 39.75vw;
+    top: 35.2vw;
+}
+.img_five {
+    background: url(donedone/donedone/res-img/page-home-spreadsheet.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 49.7vw;
+    top: 15.1vw;
+}
+.img_six {
+    background: url(donedone/donedone/res-img/page-home-sticky-note.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    position: absolute;
+    left: 72.6vw;
+    top: 7.8vw;
+}
+.img_seven {
+    background: url(donedone/donedone/res-img/page-home-bug.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 59.7vw;
+    top: 35.1vw;
+}
+.img_eight {
+    background: url(donedone/donedone/res-img/page-home-pencils.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    position: absolute;
+    left: 72.8vw;
+    top: 28.0vw;
+}
+.img_nine {
+    background: url(donedone/donedone/res-img/page-home-balloon-right.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 79.8vw;
+    top: 15.1vw;
+}
+.big_triangle .smaller-heading {
+    position: absolute;
+    top: -30vw;
+    left: -6.5vw;
+    width: 20vw;
+    text-transform: uppercase;
+}
+.big_triangle .bigger-heading {
+    position: absolute;
+    width: 30vw;
+    top: -25vw;
+    left: -8vw;
+}
+.big_triangle .text-in-triangle {
+    position: absolute;
+    text-align: center;
+    top: -20vw;
+    left: -14vw;
+    width: 30vw;
+}
+.down-arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    top: -10vw;
+}
+.second-half-of-first-page-text {
+    width: 20vw;
+    height: 20vw;
+    position: absolute;
+    top: 85vw;
+    left: 13vw;
+}
+.second-half-of-first-page-picture {
+    background: url(donedone/donedone/res-img/page-home-goodbye.png) no-repeat;
+    background-size:contain;
+    height: 40vw;
+    width: 50vw;
+    position: absolute;
+    top: 68vw;
+    left: 47vw;
+}
+.second_page {
+    background-color: #a23b5a;
+    height: 50vw;
+}
