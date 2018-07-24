@@ -238,7 +238,128 @@ header {
     background-color: #fec552;
     height: 60vw;
 }
+.third_page .text-box {
+    top: 16vw;
+    left: 6vw;
+}
+.third-page-logos{
+    background: url(donedone/donedone/res-img/home-logos-2.png) no-repeat;
+    background-size:contain;
+    height: 15vw;
+    width: 30vw;
+    position: relative;
+    top: 12vw;
+    left: 6vw;
+}
+.third-page-quote {
+    height: 14vw;
+    width: 28vw;
+    position: relative;
+}
+.top-quote {
+    background: url(donedone/donedone/res-img/page-home-quote1.png) no-repeat;
+    background-size:contain;
+    left: 52vw;
+    bottom: 33vw;
+    display: flex;
+}
+.middle-quote {
+    background: url(donedone/donedone/res-img/page-home-quote2.png) no-repeat;
+    background-size:contain;
+    left: 48vw;
+    bottom: 34vw;
+}
+.bottom-quote {
+    background: url(donedone/donedone/res-img/page-home-quote3.png) no-repeat;
+    background-size:contain;
+    height: 12vw;
+    width: 23vw;
+    left: 47vw;
+    bottom: 30vw;
+}
+.quote-text-one {
+    font-size: 0.9em;
+    width:100%;
+}
+.quote-text-two {
+
+}
+.third-page-icon {
+    height: 4vw;
+    width: 4vw;
+    position: relative;
+}
+.quote-moosylvania {
+    background: url(donedone/donedone/res-img/quote-moosylvania.jpg) no-repeat;
+    background-size:contain;
+    left: 77vw;
+    bottom: 59vw;
+}
+.quote-bigspaceship {
+    background: url(donedone/donedone/res-img/quote-bigspaceship.png) no-repeat;
+    background-size:contain;
+    left: 71vw;
+    bottom: 45vw;
+}
+.quote-ehousesudio {
+    background: url(donedone/donedone/res-img/quote-ehousestudio.png) no-repeat;
+    background-size:contain;
+    left: 72vw;
+    bottom: 53.5vw;
+}
 .fourth_page {
     background-color: #6da79b;
     height: 60vw;
+}
+.picture-tablet {
+    background: url(donedone/donedone/res-img/page-home-tablet.png) no-repeat;
+    background-size: contain;
+    width: 54vw;
+    height: 42vw;
+    position: relative;
+    bottom: 33vw;
+    left:45vw;
+}
+.picture-phone {
+    background: url(donedone/donedone/res-img/page-home-phone.png) no-repeat;
+    background-size: contain;
+    width: 18vw;
+    height: 25vw;
+    position: relative;
+    bottom: 52vw;
+    left:46vw;
+}
+.fourth_page .text-box {
+    top: 16vw;
+    left: 6vw;
+}
+.fourth-page-logos {
+    background: url(donedone/donedone/res-img/page-home-integrations.png) no-repeat;
+    background-size: contain;
+    height: 15vw;
+    width: 30vw;
+    position: relative;
+    top: 10vw;
+    left: 6vw;
+}
+.fifth_page {
+    background-color: #754f7e;
+    height: 60vw;
+}
+.fifth_page .text-box {
+    top: 16vw;
+    left: 6vw;
+}
+.clipboard {
+    background: url(donedone/donedone/res-img/page-home-clipboard.png) no-repeat;
+    background-size: contain;
+    height: 70vw;
+    width: 45vw;
+    position: relative;
+    bottom: 55vw;
+    left: 50vw;
+}
+footer {
+    background-color: #2b232d;
+    height: 20vw;
 }
