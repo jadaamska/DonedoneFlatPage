@@ -7,14 +7,17 @@ body {
     background-color: #a23b2a;
     height: 110vw;
 }
-ul {
+header ul {
     list-style-type: none;
     display: flex;
-    margin: 1vw;
+    margin: 1vw 3.5vw;
 }
 header ul img {
-    height: 3vw;
-    width: 3vw;
+    height: 2vw;
+    width: 2vw;
+}
+header li {
+    margin: 0 1.8vw;
 }
 header {
     width: 100%;
@@ -22,6 +25,9 @@ header {
     z-index: 1;
     display: flex;
     justify-content: flex-start;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9em;
 }
 .header-left-menu {
     margin-right: auto;
@@ -31,7 +37,7 @@ header {
     height: 0;
     border-left: 35vw solid transparent;
     border-right: 35vw solid transparent;
-    border-top: 35vw solid #952715;
+    border-top: 36vw solid #952715;
     position:absolute;
     left: 14.6vw;
 }
@@ -68,8 +74,8 @@ header {
     height: 20vw;
     width: 20vw;
     position: absolute;
-    left: 39.75vw;
-    top: 35.2vw;
+    left: 39.8vw;
+    top: 35.15vw;
 }
 .img_five {
     background: url(donedone/donedone/res-img/page-home-spreadsheet.png) no-repeat;
@@ -77,8 +83,8 @@ header {
     height: 30vw;
     width: 30vw;
     position: absolute;
-    left: 49.7vw;
-    top: 15.1vw;
+    left: 49.8vw;
+    top: 15.2vw;
 }
 .img_six {
     background: url(donedone/donedone/res-img/page-home-sticky-note.png) no-repeat;
@@ -86,8 +92,8 @@ header {
     height: 14.3vw;
     width: 14.3vw;
     position: absolute;
-    left: 72.6vw;
-    top: 7.8vw;
+    left: 72.8vw;
+    top: 7.9vw;
 }
 .img_seven {
     background: url(donedone/donedone/res-img/page-home-bug.png) no-repeat;
@@ -96,7 +102,7 @@ header {
     width: 20vw;
     position: absolute;
     left: 59.7vw;
-    top: 35.1vw;
+    top: 35.2vw;
 }
 .img_eight {
     background: url(donedone/donedone/res-img/page-home-pencils.png) no-repeat;
@@ -116,42 +122,53 @@ header {
     left: 79.8vw;
     top: 15.1vw;
 }
-.big_triangle .smaller-heading {
-    position: absolute;
-    top: -30vw;
-    left: -6.5vw;
-    width: 20vw;
+.smaller-heading {
     text-transform: uppercase;
+    font-family: 'Courier', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
 }
-.big_triangle .bigger-heading {
-    position: absolute;
+.bigger-heading {
+    color: white;
     width: 30vw;
-    top: -25vw;
-    left: -8vw;
+    font-size: 3vw;
 }
-.big_triangle .text-in-triangle {
-    position: absolute;
+.text-under-headings {
+    width: 32vw;
+    line-height: 1.4em;
+    margin:1vw 0;
+}
+.big_triangle .smaller-heading {
+    color: #fec552;
+}
+.big_triangle .text-under-headings {
+    color: #fec552;
+}
+.text-box-in-triangle {
     text-align: center;
-    top: -20vw;
-    left: -14vw;
-    width: 30vw;
+    position: absolute;
+    bottom: 12vw;
+    left: -14.5vw;
 }
 .down-arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
+    border: solid #6e1507;
+    border-width: 0 0.6vw 0.6vw 0;
     display: inline-block;
-    padding: 3px;
+    padding: 0.6vw;
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     position: absolute;
-    top: -10vw;
+    bottom: 6vw;
+    left: -0.7vw;
 }
-.second-half-of-first-page-text {
-    width: 20vw;
-    height: 20vw;
-    position: absolute;
-    top: 85vw;
-    left: 13vw;
+.text-box {
+    width: 24vw;
+    height: 24vw;
+    position: relative;
+}
+.first_page .text-box {
+    top: 75vw;
+    left: 6vw;
 }
 .second-half-of-first-page-picture {
     background: url(donedone/donedone/res-img/page-home-goodbye.png) no-repeat;
@@ -164,5 +181,64 @@ header {
 }
 .second_page {
     background-color: #f26f21;
-    height: 50vw;
+    height: 60vw;
+}
+.second-page-arrow {
+    height: 25vw;
+    width: 62vw;
+    position: relative;
+}
+.arrow-first {
+    background: url(donedone/donedone/res-img/home_arrow1.png) no-repeat;
+    background-size:contain;
+    top: 10vw;
+    right: 3vw;
+}
+.arrow-second {
+    background: url(donedone/donedone/res-img/home_arrow2.png) no-repeat;
+    background-size:contain;
+    bottom: 11vw;
+    left: 3vw;
+}
+.arrow-third {
+    background: url(donedone/donedone/res-img/home_arrow3.png) no-repeat;
+    background-size:contain;
+    bottom: 16vw;
+    right: 4vw;
+}
+.top-circle {
+    background: url(donedone/donedone/res-img/home_signup.png) no-repeat;
+    background-size:contain;
+    height: 12vw;
+    position: relative;
+    left: 62vw;
+    bottom: 70vw;
+}
+.middle-circle {
+    background: url(donedone/donedone/res-img/home_faces1.png) no-repeat;
+    background-size:contain;
+    height: 26vw;
+    position: relative;
+    left: 69vw;
+    bottom: 72vw;
+}
+.bottom-circle {
+    background: url(donedone/donedone/res-img/home_code.png) no-repeat;
+    background-size:contain;
+    height: 17vw;
+    position: relative;
+    left: 60vw;
+    bottom: 75vw;
+}
+.second_page .text-box {
+    bottom: 115vw;
+    left: 6vw;
+}
+.third_page {
+    background-color: #fec552;
+    height: 60vw;
+}
+.fourth_page {
+    background-color: #6da79b;
+    height: 60vw;
 }
