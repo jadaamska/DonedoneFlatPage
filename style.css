@@ -345,6 +345,7 @@ header {
 .fifth_page {
     background-color: #754f7e;
     height: 60vw;
+    overflow-y: hidden;
 }
 .fifth_page .text-box {
     top: 16vw;
@@ -354,12 +355,84 @@ header {
     background: url(donedone/donedone/res-img/page-home-clipboard.png) no-repeat;
     background-size: contain;
     height: 70vw;
-    width: 45vw;
+    width: 43vw;
     position: relative;
-    bottom: 55vw;
+    bottom: 20vw;
     left: 50vw;
 }
 footer {
     background-color: #2b232d;
-    height: 20vw;
+    height: 22vw;
+    padding: 0 6vw;
+}
+.footer_upper {
+    height: 14vw;
+    border-bottom: 1px solid #cc9dd8;
+    display: flex;
+}
+.footer_cup {
+    background: url(donedone/donedone/res-img/footer-cup.png) no-repeat;
+    background-size: contain;
+    height: 13vw;
+    width: 13vw;
+    margin: 3vw 2vw 0 0;
+}
+.footer_text_box {
+    height: 12vw;
+    width: 12vw;
+    margin: 3vw 1vw 0 1vw;
+}
+.footer_text_box_top {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-size: 1.2vw;
+    color: #cc9dd8;
+}
+.footer_text_box_bottom {
+    font-size: 85%;
+    margin-top: 0.5vw;
+    color: #754f7e;
+}
+.footer_icons {
+    display: flex;
+    margin: 3vw 1vw 0 auto;
+}
+.footer-icon {
+    height: 1vw;
+    width: 1vw;
+    border-radius: 50%;
+    background-color: #754f7e;
+    color: #2b232d;
+    font-size: 1.3vw;
+    padding:0.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_lower {
+    display: flex;
+    color: #cc9dd8;
+}
+.footer_both_menu {
+
+}
+.footer_lower ul{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+}
+.footer_lower li {
+    margin: 0 1vw;
+}
+.footer-wrench-and-rights {
+    display: flex;
+    margin-top: 1vw;
+    margin-left: auto;
+}
+.footer-wrench {
+    background: url(donedone/donedone/res-img/footer-wrench.png) no-repeat;
+    background-size: contain;
+    height: 4vw;
+    width: 6vw;
+    margin-right: 0.5vw;
 }
