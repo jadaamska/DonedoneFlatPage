@@ -1,0 +1,35 @@
+.fourth_page {
+    background-color: #6da79b;
+    height: 60vw;
+}
+.picture-tablet {
+    background: url(../donedone/donedone/res-img/page-home-tablet.png) no-repeat;
+    background-size: contain;
+    width: 54vw;
+    height: 42vw;
+    position: relative;
+    bottom: 33vw;
+    left:45vw;
+}
+.picture-phone {
+    background: url(../donedone/donedone/res-img/page-home-phone.png) no-repeat;
+    background-size: contain;
+    width: 18vw;
+    height: 25vw;
+    position: relative;
+    bottom: 52vw;
+    left:46vw;
+}
+.fourth_page .text-box {
+    top: 16vw;
+    left: 6vw;
+}
+.fourth-page-logos {
+    background: url(../donedone/donedone/res-img/page-home-integrations.png) no-repeat;
+    background-size: contain;
+    height: 15vw;
+    width: 30vw;
+    position: relative;
+    top: 10vw;
+    left: 6vw;
+}

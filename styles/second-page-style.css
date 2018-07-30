@@ -1,0 +1,55 @@
+.second_page {
+    background-color: #f26f21;
+    height: 60vw;
+}
+.second-page-arrow {
+    height: 25vw;
+    width: 62vw;
+    position: relative;
+}
+.arrow-first {
+    background: url(../donedone/donedone/res-img/home_arrow1.png) no-repeat;
+    background-size:contain;
+    top: 10vw;
+    right: 3vw;
+}
+.arrow-second {
+    background: url(../donedone/donedone/res-img/home_arrow2.png) no-repeat;
+    background-size:contain;
+    bottom: 11vw;
+    left: 3vw;
+}
+.arrow-third {
+    background: url(../donedone/donedone/res-img/home_arrow3.png) no-repeat;
+    background-size:contain;
+    bottom: 16vw;
+    right: 4vw;
+}
+.top-circle {
+    background: url(../donedone/donedone/res-img/home_signup.png) no-repeat;
+    background-size:contain;
+    height: 12vw;
+    position: relative;
+    left: 62vw;
+    bottom: 70vw;
+}
+.middle-circle {
+    background: url(../donedone/donedone/res-img/home_faces1.png) no-repeat;
+    background-size:contain;
+    height: 26vw;
+    position: relative;
+    left: 69vw;
+    bottom: 72vw;
+}
+.bottom-circle {
+    background: url(../donedone/donedone/res-img/home_code.png) no-repeat;
+    background-size:contain;
+    height: 17vw;
+    position: relative;
+    left: 60vw;
+    bottom: 75vw;
+}
+.second_page .text-box {
+    bottom: 115vw;
+    left: 6vw;
+}

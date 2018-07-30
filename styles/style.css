@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    background-color: #a23b2a;
+    overflow-x: hidden;
+}
+.first_page {
+    background-color: #a23b2a;
+    height: 110vw;
+}
+header ul {
+    list-style-type: none;
+    display: flex;
+    margin: 1vw 3.5vw;
+}
+header ul img {
+    height: 2vw;
+    width: 2vw;
+}
+header li {
+    margin: 0 1.8vw;
+}
+header {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-start;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+.header-left-menu {
+    margin-right: auto;
+}
+.big_triangle {
+    width: 0;
+    height: 0;
+    border-left: 35vw solid transparent;
+    border-right: 35vw solid transparent;
+    border-top: 36vw solid #952715;
+    position:absolute;
+    left: 14.6vw;
+}
+.img_one {
+    background: url(../donedone/donedone/res-img/page-home-balloon-left.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 9.7vw;
+    top: 5.2vw;
+}
+.img_two {
+    background: url(../donedone/donedone/res-img/page-home-documents.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 9.7vw;
+    top: 15.2vw;
+}
+.img_three {
+    background: url(../donedone/donedone/res-img/page-home-folder.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 29.7vw;
+    top: 25.2vw;
+}
+.img_four {
+    background: url(../donedone/donedone/res-img/page-home-balloon-middle.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 39.73vw;
+    top: 35.15vw;
+}
+.img_five {
+    background: url(../donedone/donedone/res-img/page-home-spreadsheet.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    position: absolute;
+    left: 49.8vw;
+    top: 15.2vw;
+}
+.img_six {
+    background: url(../donedone/donedone/res-img/page-home-sticky-note.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    position: absolute;
+    left: 72.8vw;
+    top: 7.9vw;
+}
+.img_seven {
+    background: url(../donedone/donedone/res-img/page-home-bug.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 59.75vw;
+    top: 35.2vw;
+}
+.img_eight {
+    background: url(../donedone/donedone/res-img/page-home-pencils.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    position: absolute;
+    left: 72.8vw;
+    top: 28.0vw;
+}
+.img_nine {
+    background: url(../donedone/donedone/res-img/page-home-balloon-right.png) no-repeat;
+    background-size:contain;
+    height: 20vw;
+    width: 20vw;
+    position: absolute;
+    left: 79.8vw;
+    top: 15.1vw;
+}
+.click-button {
+    height: 2.5vw;
+    width: 10vw;
+    border-radius: 1.5vw;
+    border: none;
+    background: linear-gradient(160deg,  #6da79b 0%,#6da79b 50%,#609a8e 50%,#609a8e 100%);
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.smaller-heading {
+    text-transform: uppercase;
+    font-family: 'Courier', sans-serif;
+    font-weight: bold;
+    font-size: 0.9em;
+}
+.bigger-heading {
+    color: white;
+    width: 32vw;
+    font-size: 3vw;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
+.text-under-headings {
+    width: 32vw;
+    line-height: 1.4em;
+    margin:1vw 0;
+}
+.big_triangle .smaller-heading {
+    color: #fec552;
+}
+.big_triangle .text-under-headings {
+    color: #fec552;
+}
+.text-box-in-triangle {
+    text-align: center;
+    position: absolute;
+    bottom: 11vw;
+    left: -15.5vw;
+}
+.down-arrow {
+    border: solid #6e1507;
+    border-width: 0 0.6vw 0.6vw 0;
+    display: inline-block;
+    padding: 0.6vw;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    position: absolute;
+    bottom: 6vw;
+    left: -0.7vw;
+}
+.text-box {
+    width: 26vw;
+    height: 24vw;
+    position: relative;
+}
+.first_page .text-box {
+    top: 75vw;
+    left: 6vw;
+}
+.second-half-of-first-page-picture {
+    background: url(../donedone/donedone/res-img/page-home-goodbye.png) no-repeat;
+    background-size:contain;
+    height: 40vw;
+    width: 50vw;
+    position: absolute;
+    top: 68vw;
+    left: 47vw;
+}
+
