@@ -51,6 +51,15 @@ footer {
 .footer_lower {
     display: flex;
     color: #cc9dd8;
+    font-family: 'Nunito', sans-serif;
+}
+.footer_top_menu {
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.footer_bottom_menu {
+    font-size: 0.75em;
 }
 .footer_lower ul{
     list-style-type: none;
@@ -62,8 +71,10 @@ footer {
 }
 .footer-wrench-and-rights {
     display: flex;
-    margin-top: 1vw;
+    margin-top: 2vw;
     margin-left: auto;
+    font-size: 0.75em;
+    line-height: 2em;
 }
 .footer-wrench {
     background: url(../donedone/donedone/res-img/footer-wrench.png) no-repeat;

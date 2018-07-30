@@ -27,10 +27,16 @@ header {
     justify-content: flex-start;
     color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
+    font-weight: bold;
 }
 .header-left-menu {
     margin-right: auto;
+    align-items: center;
+}
+.header-right-menu {
+    align-items: center;
 }
 .big_triangle {
     width: 0;
@@ -129,15 +135,15 @@ header {
     border: none;
     background: linear-gradient(160deg,  #6da79b 0%,#6da79b 50%,#609a8e 50%,#609a8e 100%);
     color: #ffffff;
-    text-transform: uppercase;
-    font-family: 'Nunito', sans-serif;
     font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    text-transform: uppercase;
 }
 .smaller-heading {
     text-transform: uppercase;
-    font-family: 'Courier', sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: 0.9em;
+    font-size: 0.78em;
 }
 .bigger-heading {
     color: white;
@@ -182,6 +188,7 @@ header {
 .first_page .text-box {
     top: 75vw;
     left: 6vw;
+    color: #fbdc9d;
 }
 .second-half-of-first-page-picture {
     background: url(../donedone/donedone/res-img/page-home-goodbye.png) no-repeat;

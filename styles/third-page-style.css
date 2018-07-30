@@ -5,6 +5,7 @@
 .third_page .text-box {
     top: 16vw;
     left: 6vw;
+    color: #e76a20;
 }
 .third-page-logos{
     background: url(../donedone/donedone/res-img/home-logos-2.png) no-repeat;
@@ -14,9 +15,10 @@
     position: relative;
     top: 12vw;
     left: 6vw;
+    margin-top: 1vw;
 }
 .third-page-quote {
-    height: 14vw;
+    height: 15vw;
     width: 28vw;
     position: relative;
 }
@@ -36,17 +38,39 @@
 .bottom-quote {
     background: url(../donedone/donedone/res-img/page-home-quote3.png) no-repeat;
     background-size:contain;
-    height: 12vw;
-    width: 23vw;
     left: 47vw;
     bottom: 30vw;
 }
 .quote-text-one {
-    font-size: 0.9em;
+    font-size: 1vw;
     width:100%;
+    color: #fec552;
+    position: relative;
+    top: 4.5vw;
+    left: 2vw;
 }
 .quote-text-two {
-
+    font-family: 'Nunito', sans-serif;
+    color: #b54d10;
+    font-weight: bold;
+    position: relative;
+    font-size: 0.8vw;
+}
+.bottom-quote .quote-text-one {
+    top: 2vw;
+    left: 2vw;
+}
+.top-quote .quote-text-two {
+    top: 5vw;
+    right: 2vw;
+}
+.middle-quote .quote-text-two {
+    top: 5vw;
+    left: 2vw;
+}
+.bottom-quote .quote-text-two {
+    top: 3vw;
+    left: 2vw;
 }
 .third-page-icon {
     height: 4vw;
@@ -57,17 +81,17 @@
     background: url(../donedone/donedone/res-img/quote-moosylvania.jpg) no-repeat;
     background-size:contain;
     left: 77vw;
-    bottom: 59vw;
+    bottom: 64vw;
 }
 .quote-bigspaceship {
     background: url(../donedone/donedone/res-img/quote-bigspaceship.png) no-repeat;
     background-size:contain;
-    left: 71vw;
-    bottom: 45vw;
+    left:76vw;
+    bottom: 46vw;
 }
 .quote-ehousesudio {
     background: url(../donedone/donedone/res-img/quote-ehousestudio.png) no-repeat;
     background-size:contain;
-    left: 72vw;
-    bottom: 53.5vw;
+    left: 73vw;
+    bottom: 56.5vw;
 }
