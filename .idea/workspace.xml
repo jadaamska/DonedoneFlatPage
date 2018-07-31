@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bea2fe7-2a58-457c-b0ba-0cd05590799b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/fifth-page-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/fifth-page-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/first-page-and-body-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/first-page-and-body-style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/style-footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style-footer.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style-footer.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style-footer.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/styles/style-footer.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            <state relative-caret-position="435">
+              <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -77,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fifth-page-style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fifth-page-style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/styles/fifth-page-style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+            <state relative-caret-position="292">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -113,8 +108,8 @@
         <option value="$PROJECT_DIR$/styles/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/styles/first-page-and-body-style.css" />
-        <option value="$PROJECT_DIR$/styles/fifth-page-style.css" />
         <option value="$PROJECT_DIR$/styles/style-footer.css" />
+        <option value="$PROJECT_DIR$/styles/fifth-page-style.css" />
       </list>
     </option>
   </component>
@@ -193,12 +188,12 @@
       <option name="presentableId" value="Default" />
       <updated>1532083355222</updated>
       <workItem from="1532083356656" duration="2095000" />
-      <workItem from="1532333636828" duration="88228000" />
+      <workItem from="1532333636828" duration="88763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90323000" />
+    <option name="totallyTimeSpent" value="90858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1679" y="307" width="1368" height="744" extended-state="6" />
@@ -371,17 +366,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/fifth-page-style.css">
+    <entry file="file://$PROJECT_DIR$/styles/style-footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="34" column="16" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+        <state relative-caret-position="435">
+          <caret line="29" column="21" lean-forward="true" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/styles/style-footer.css">
+    <entry file="file://$PROJECT_DIR$/styles/fifth-page-style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="42" column="19" lean-forward="true" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        <state relative-caret-position="292">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
