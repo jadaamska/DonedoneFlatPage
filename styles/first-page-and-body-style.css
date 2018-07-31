@@ -28,7 +28,7 @@ header {
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
-    font-size: 0.9em;
+    font-size: 1vw;
     font-weight: bold;
 }
 .header-left-menu {
@@ -52,17 +52,18 @@ header {
     width: 10vw;
     border-radius: 1.5vw;
     border: none;
-    background: linear-gradient(160deg,  #6da79b 0%,#6da79b 50%,#609a8e 50%,#609a8e 100%);
+    background: linear-gradient(160deg,  #6da79b 50%,#609a8e 50%);
     color: #ffffff;
     font-weight: bold;
     font-family: 'Nunito', sans-serif;
     text-transform: uppercase;
+    font-size: 1vw;
 }
 .smaller-heading {
     text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
-    font-size: 0.78em;
+    font-size: 0.8vw;
 }
 .bigger-heading {
     color: white;
@@ -75,6 +76,7 @@ header {
     width: 32vw;
     line-height: 1.4em;
     margin:1vw 0;
+    font-size: 1.2vw;
 }
 .big_triangle .smaller-heading, .big_triangle .text-under-headings{
     color: #fec552;

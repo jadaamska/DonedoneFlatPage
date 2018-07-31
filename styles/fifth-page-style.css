@@ -27,12 +27,12 @@
     text-transform: uppercase;
     color: #6a4676;
     font-weight: 800;
-    font-size: 1.5em;
+    font-size: 1.6vw;
     margin: 0.5vw 0;
 }
 .form-text {
     color: #3d2143;
-    font-size: 0.85em;
+    font-size: 1vw;
 }
 .form input, select{
     width: 75%;
@@ -48,11 +48,8 @@
     background-color: #4b3051;
     color: #754f7e;
 }
-::placeholder {
+.form::placeholder {
     color: #754f7e;
-}
-.above-form {
-
 }
 .form {
     margin: 1vw 0;
