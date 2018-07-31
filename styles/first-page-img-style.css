@@ -1,0 +1,67 @@
+.first-page-img {
+    position: absolute;
+    height: 20vw;
+    width: 20vw;
+}
+.img_one {
+    background: url(../donedone/donedone/res-img/page-home-balloon-left.png) no-repeat;
+    background-size:contain;
+    left: 9.7vw;
+    top: 5.2vw;
+}
+.img_two {
+    background: url(../donedone/donedone/res-img/page-home-documents.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    left: 9.7vw;
+    top: 15.2vw;
+}
+.img_three {
+    background: url(../donedone/donedone/res-img/page-home-folder.png) no-repeat;
+    background-size:contain;
+    left: 29.7vw;
+    top: 25.2vw;
+}
+.img_four {
+    background: url(../donedone/donedone/res-img/page-home-balloon-middle.png) no-repeat;
+    background-size:contain;
+    left: 39.73vw;
+    top: 35.15vw;
+}
+.img_five {
+    background: url(../donedone/donedone/res-img/page-home-spreadsheet.png) no-repeat;
+    background-size:contain;
+    height: 30vw;
+    width: 30vw;
+    left: 49.8vw;
+    top: 15.2vw;
+}
+.img_six {
+    background: url(../donedone/donedone/res-img/page-home-sticky-note.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    left: 72.8vw;
+    top: 7.9vw;
+}
+.img_seven {
+    background: url(../donedone/donedone/res-img/page-home-bug.png) no-repeat;
+    background-size:contain;
+    left: 59.75vw;
+    top: 35.2vw;
+}
+.img_eight {
+    background: url(../donedone/donedone/res-img/page-home-pencils.png) no-repeat;
+    background-size:contain;
+    height: 14.3vw;
+    width: 14.3vw;
+    left: 72.8vw;
+    top: 28.0vw;
+}
+.img_nine {
+    background: url(../donedone/donedone/res-img/page-home-balloon-right.png) no-repeat;
+    background-size:contain;
+    left: 79.8vw;
+    top: 15.1vw;
+}
